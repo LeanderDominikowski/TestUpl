@@ -23,4 +23,4 @@ git commit -m "some Reason"
 git push -u origin main
 
 # Lokal update von remote holen
-get fetch origin
+get fetch origin main
