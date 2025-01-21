@@ -16,3 +16,8 @@ git branch -M main
 git remote add origin https://github.com/LeanderDominikowski/<Repositoryname>.git
 # Hochschieben auf github bzw. Synchronisieren
 git push -u origin main
+
+# jede Änderung
+git status
+git commit -m "some Reason"
+git push -u origin main
