@@ -17,10 +17,10 @@ git remote add origin https://github.com/LeanderDominikowski/<Repositoryname>.gi
 # Hochschieben auf github bzw. Synchronisieren
 git push -u origin main
 
-# Lokal update von remote holen
-get fetch origin
-
 # jede Änderung
 git status
 git commit -m "some Reason"
 git push -u origin main
+
+# Lokal update von remote holen
+get fetch origin
