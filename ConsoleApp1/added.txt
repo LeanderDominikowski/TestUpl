@@ -1,0 +1,18 @@
+# git bash
+# in Projectdir gehen
+# .gitignore für Visual Studio rein kopieren !!!
+echo "# Repositoryname" >> README.md
+# Projekt für git initialisieren -> erhzeugt .git-Dir
+git init
+# Alle Dateien und Folder außer .gitignore zu git hinzufügen
+git add .
+# nachprüfen ob .gitignore greift (dürfen nicht auftauchen)
+git status
+# erstes lokales commi
+git commit -m "first commit"
+# Branch festlegen
+git branch -M main
+# Lokales Repository mit Remote Repos auf github verknüpfen
+git remote add origin https://github.com/LeanderDominikowski/<Repositoryname>.git
+# Hochschieben auf github bzw. Synchronisieren
+git push -u origin main
